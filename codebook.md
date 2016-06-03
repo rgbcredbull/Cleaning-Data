@@ -1,5 +1,7 @@
 Used variables:
 
+
+//
 Storage Operations: 
 
 testData, testColumns, and testSubjects encompass three seperate test segment files including X_test.txt, y_test.txt, and subject_tests.txt
@@ -15,6 +17,8 @@ columnHeaders includes all measured variable titles (see original variables from
 
 tidyData houses column averages of comboPlatter broken out by subject and activity.
 
+
+//
 Operations:
 
 Storage, column bind all data into testMaster and trainMaster.
@@ -30,6 +34,7 @@ Extract column names and derive means through factorization and dcast, respectiv
 Write data to tidyAverages.txt.
 
 
+//
 Original variables from base datasets: 
 
 tBodyAcc-XYZ
