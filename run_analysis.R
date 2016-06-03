@@ -50,7 +50,6 @@ comboPlatter$activity<-factor(comboPlatter$activity,labels=activityNames[,2])
 
 newGroup<-melt(comboPlatter,c("Subject","Activity"))
 tidyData<-dcast(newGroup,subject+activity~averages,fun=mean)
-#tidyData<-dcast(newGroup,fun=mean)
 colnames(tidyData)[3]<-"average"
 
 write.table(tidyData,file="tidyAverages.txt")
