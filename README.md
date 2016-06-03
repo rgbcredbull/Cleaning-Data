@@ -22,7 +22,7 @@ Files in Repository:
 
 README.md: Discusses repository folder, including dataset source.
 
-CODEBOOK.md: Outlines data used and adjusted for project.
+codebook.md: Outlines data used and adjusted for project.
 
 run_analysis.R: Script utilized in creating "tidyAverages.txt"
 
