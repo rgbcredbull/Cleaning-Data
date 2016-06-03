@@ -18,7 +18,7 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 
 
-Files in Repository:<h2>
+<h2>Files in Repository:</h2>
 
 **README.md**: Discusses repository folder, including dataset source.
 
