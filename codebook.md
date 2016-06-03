@@ -1,41 +1,39 @@
-Used variables:
+<h2>Used variables:</h2>
 
 
-//
-Storage Operations: 
 
-testData, testColumns, and testSubjects encompass three seperate test segment files including X_test.txt, y_test.txt, and subject_tests.txt
+<h3>Storage Operations: </h3>
 
-trainData, trainColumns, and trainSubjects encompass three seperate train segment files including X_trains.txt, y_test.txt, and sbuject_train.txt
+**testData, testColumns, and testSubjects** encompass three seperate test segment files including X_test.txt, y_test.txt, and subject_tests.txt
 
-testMaster and trainMaster house collective data of both test and train sets.
-comboPlatter houses combined test and train data sets.
+**trainData, trainColumns, and trainSubjects** encompass three seperate train segment files including X_trains.txt, y_test.txt, and sbuject_train.txt
 
-activityNames houses activity names including: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.
+**testMaster and trainMaster** house collective data of both test and train sets.
+**comboPlatter** houses combined test and train data sets.
 
-columnHeaders includes all measured variable titles (see original variables from base datasets below.
+**activityNames** houses activity names including: *WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING*.
 
-tidyData houses column averages of comboPlatter broken out by subject and activity.
+**columnHeaders** includes all measured variable titles (see original variables from base datasets below.
+
+**tidyData** houses column averages of comboPlatter broken out by subject and activity.
 
 
-//
-Operations:
+<h3>Operations:</h3>
 
-Storage, column bind all data into testMaster and trainMaster.
+Storage, column bind all data into **testMaster** and **trainMaster**.
 
-Row bind all data into comboPlatter.
+Row bind all data into **comboPlatter**.
 
-Break out character assignments of activity_labels.txt for use in labelling comboPlatter
+Break out character assignments of *activity_labels.txt* for use in labelling **comboPlatter**
 
-Add subject and activity columns comboPlatter.
+Add subject and activity columns **comboPlatter**.
 
 Extract column names and derive means through factorization and dcast, respectively.
 
-Write data to tidyAverages.txt.
+Write data to **tidyAverages.txt**.
 
 
-//
-Original variables from base datasets: 
+<h3>Original variables from base datasets: </h3>
 
 tBodyAcc-XYZ
 
