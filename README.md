@@ -1,7 +1,7 @@
 # Coursera - Getting and Cleaning Data Assignment 
 
 
-See below for files used in the final project for the Getting and Cleaning Data Coursera Assignment. 
+See below for files used in the final project for the **Getting and Cleaning Data Coursera Assignment**. 
 
 Initial Dataset: Human Activity Recognition Using Smartphones Dataset - v1.0
 
@@ -18,13 +18,13 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 
 
-Files in Repository:
+Files in Repository:<h2>
 
-README.md: Discusses repository folder, including dataset source.
+**README.md**: Discusses repository folder, including dataset source.
 
-codebook.md: Outlines data used and adjusted for project.
+**codebook.md**: Outlines data used and adjusted for project.
 
-run_analysis.R: Script utilized in creating "tidyAverages.txt"
+**run_analysis.R**: Script utilized in creating "tidyAverages.txt"
 
-tidyAverages.txt: Average of each variable for Subject and Activity logs.
+**tidyAverages.txt**: Average of each variable for Subject and Activity logs.
 
